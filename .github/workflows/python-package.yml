@@ -3,12 +3,7 @@
 
 name: Python package
 
-on:
-  push:
-    branches: [ 1641-musterloesung ]
-on:
-  pull:
-    branches: [ 1641-musterloesung ]
+
 jobs:
   test:
     runs-on: ubuntu-latest
