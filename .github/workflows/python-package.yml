@@ -31,4 +31,4 @@ jobs:
         # Befehl zum Ausführen der Tests hier einfügen
 
     - name: Finish
-      run: -python -m pytest
+      run: python -m pytest
