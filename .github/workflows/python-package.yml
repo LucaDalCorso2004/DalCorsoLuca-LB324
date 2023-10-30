@@ -31,4 +31,4 @@ jobs:
         # Befehl zum Ausführen der Tests hier einfügen
 
     - name: Finish
-      run: echo "Tests completed for Pull Request on dev branch."
+      run: -python -m pytest
