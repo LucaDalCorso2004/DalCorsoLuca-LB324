@@ -22,3 +22,5 @@ Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übe
 8. Als Name nehmen sie PASSWORD genau so schreiben und Value das was in der env datei steht.
 9. Das noch speichern und schon haben sie ihre PASSWORD auf ihrer Web-App
 
+
+[weblink](https://lb324v3.azurewebsites.net/)
