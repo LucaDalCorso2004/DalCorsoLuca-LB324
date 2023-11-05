@@ -27,6 +27,7 @@ def test_add_entry(client):
     assert entry.content == "Test Entry Content"
 
 
+
 def test_add_entry_with_happiness(client):
     # Test adding an entry with happiness
     response = client.post(
@@ -42,3 +43,4 @@ def test_add_entry_with_happiness(client):
     assert entry is not None
     assert entry.content == "Test Entry Content"
     assert entry.happiness == "😃"
+

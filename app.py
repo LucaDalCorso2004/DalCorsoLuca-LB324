@@ -15,7 +15,9 @@ entries = []
 @dataclass
 class Entry:
     content: str
+
     happiness: str
+
     timestamp: datetime = datetime.now()
 
 
@@ -52,6 +54,7 @@ def add_entry():
         entry = Entry(content=content, happiness=happiness)
 
         entries.append(entry)
+
 
     return redirect(url_for("index"))
 
