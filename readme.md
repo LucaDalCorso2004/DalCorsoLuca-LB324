@@ -4,7 +4,13 @@
 Erklären Sie hier, wie man `pre-commit` installiert.
 
 
- Man gibt in dem terminal "pre-commit install" und so wird pre-commit installirt.Danach muss man nur noch ein pre-commit-comfig.yaml file einbauen und schon geht es.
+
+
+
+ Man gibt in dem terminal "pre-commit install" und so wird pre-commit installirt.Danach muss man nur noch ein pre-commit-comfig.yaml file dort drin muss man auf den pytest verwiessen und auch die formatierungen  und schon geht es.Um es aber auf psuh zu testen mussman pre-commit install --hook-type pre-commit --hook-type pre-push installiren das es auch beim push anschaut.Zudem muss die stage im pre-commit-comfig.yaml von commit zu psuh geändert werden, so kann man eine pre-commit vor einem push  machen.Zu ausführung gibt man den Befhele "git add ." danach
+ "git commit -m "message"" und dann "git push origin branchname". Wenn es ein Fehler hat wird der Commit nicht gepusht nur wenn er den pytest besteht.Wenn es nach dem commit ein Fehler gibt geben sie einfacher nochmals "git add ." und "git commit" ein dan sollte es funktioniren.
+
+
 
 ## Aufgabe 4
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
@@ -18,3 +24,4 @@ Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übe
 7. Dort ein neues Applicaktion Setting machen.
 8. Als Name nehmen sie PASSWORD genau so schreiben und Value das was in der env datei steht.
 9. Das noch speichern und schon haben sie ihre PASSWORD auf ihrer Web-App
+
